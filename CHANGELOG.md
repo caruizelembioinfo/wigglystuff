@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Moved example notebooks from `examples/` to `demos/` folder.
 - Added infinite zoom (Droste effect) example to the docs gallery.
 - `Paint` toolbar icons: replaced generic pencil icons with a distinct pen (brush) and highlighter (marker) to make the tools easier to tell apart.
+- `ChartMultiSelect` now supports up to 20 classes (previously 4) and uses the skills `craft30` palette colors for class styling.
 
 ## [0.3.1] - 2026-03-25
 

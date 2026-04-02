@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | `mode` | `str` | Selection mode: "box" or "lasso". |
 | `modes` | `list[str]` | Available modes (controls which buttons are shown). |
-| `n_classes` | `int` | Number of class labels (1–4). |
+| `n_classes` | `int` | Number of class labels (1–20). |
 | `active_class` | `int` | Currently active class for the next drawn selection. |
 | `selections` | `list[dict]` | All selections. Each dict has `type`, `class_id`, and geometry keys. |
 | `selected_index` | `int` | Index of the highlighted selection (-1 = none). |

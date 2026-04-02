@@ -56,7 +56,7 @@ class ChartMultiSelect(AnyWidget):
         traitlets.Unicode(), default_value=["box", "lasso"]
     ).tag(sync=True)
 
-    # Number of classes (1–4)
+    # Number of classes (1–20)
     n_classes = traitlets.Int(2).tag(sync=True)
 
     # Currently active class for the next drawn selection
@@ -111,7 +111,7 @@ class ChartMultiSelect(AnyWidget):
 
         Args:
             fig: A matplotlib figure to overlay selections on.
-            n_classes: Number of class labels (1–4).
+            n_classes: Number of class labels (1–20).
             mode: Selection mode (``"box"`` or ``"lasso"``).
             modes: Available modes. Defaults to ``["box", "lasso"]``.
             selection_opacity: Opacity of selection fill (0–1).
@@ -150,8 +150,8 @@ class ChartMultiSelect(AnyWidget):
     @traitlets.validate("n_classes")
     def _validate_n_classes(self, proposal):
         value = proposal["value"]
-        if not 1 <= value <= 4:
-            raise traitlets.TraitError("n_classes must be between 1 and 4")
+        if not 1 <= value <= 20:
+            raise traitlets.TraitError("n_classes must be between 1 and 20")
         return value
 
     # ------------------------------------------------------------------
@@ -287,7 +287,7 @@ class ChartMultiSelect(AnyWidget):
             x_bounds: Fixed (min, max) for x-axis.
             y_bounds: Fixed (min, max) for y-axis.
             figsize: Figure size in inches.
-            n_classes: Number of class labels (1–4).
+            n_classes: Number of class labels (1–20).
             mode: Initial selection mode.
             modes: Available modes.
             **kwargs: Passed to ``ChartMultiSelect``.

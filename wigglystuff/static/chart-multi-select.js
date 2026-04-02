@@ -1,4 +1,25 @@
-const CLASS_COLORS = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728"];
+const CLASS_COLORS = [
+  "#4269d0",
+  "#efb118",
+  "#ff725c",
+  "#3ca951",
+  "#a463f2",
+  "#ff8ab7",
+  "#17becf",
+  "#e04545",
+  "#f28e2c",
+  "#8bb540",
+  "#1b3d8e",
+  "#c47a17",
+  "#c43535",
+  "#1e7535",
+  "#6530a0",
+  "#c0507a",
+  "#1a7a6a",
+  "#8c5a2a",
+  "#7a8a20",
+  "#505a6e",
+];
 
 function render({ model, el }) {
   // === DOM SETUP ===
