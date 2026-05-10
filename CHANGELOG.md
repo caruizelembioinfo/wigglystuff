@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+- `PlottingCanvas`: high-performance WebGL scatter canvas for millions of points. Supports layered architecture (add/remove layers without recreating the widget), five color-encoding modes (constant, categorical string/bool/int, continuous float), binary Float32 transfer via `traitlets.Bytes` for GPU-efficient data upload, D3 axis overlay synced to pan/zoom, and lasso/rect selection returning point indices.
+- `PlottingCanvas`: **multi-region selection** — hold **Ctrl** while drawing a lasso or box to add a second (or third…) region to the existing selection. `selected_indices` accumulates across all regions; `selected_data` performs a per-region OR-filter on the original data so each region's full-resolution points are returned without the over-inclusion of a single union bbox.
+
 ### Changed
 - Moved example notebooks from `examples/` to `demos/` folder.
 - Added infinite zoom (Droste effect) example to the docs gallery.

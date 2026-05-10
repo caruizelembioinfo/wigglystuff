@@ -25,6 +25,7 @@ from .neo4j_widget import Neo4jWidget
 from .paint import Paint
 from .parallel_coords import ParallelCoordinates
 from .play_slider import PlaySlider
+from .plotting_canvas import PlottingCanvas
 from .pulsar_chart import PulsarChart
 from drawdata import ScatterWidget
 from .slider2d import Slider2D
@@ -62,6 +63,7 @@ __all__ = [
     "Paint",
     "ParallelCoordinates",
     "PlaySlider",
+    "PlottingCanvas",
     "PulsarChart",
     "ScatterWidget",
     "Slider2D",

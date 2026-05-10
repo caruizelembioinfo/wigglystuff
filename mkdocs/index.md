@@ -151,6 +151,11 @@ The documentation for wigglystuff is designed for humans (via hosted marimo note
 <div class="gallery-links"><a target="_blank" href="https://molab.marimo.io/github/koaning/wigglystuff/blob/main/demos/chartselect.py/wasm">molab</a><a href="reference/chart-select/">API</a><a href="reference/chart-select.md">MD</a></div>
 </div>
 <div class="gallery-item">
+<div class="gallery-title">PlottingCanvas</div>
+<a target="_blank" href="https://molab.marimo.io/github/koaning/wigglystuff/blob/main/demos/plotting_canvas.py/wasm" class="gallery-img"><img src="assets/gallery/plottingcanvas.png" alt="PlottingCanvas"></a>
+<div class="gallery-links"><a target="_blank" href="https://molab.marimo.io/github/koaning/wigglystuff/blob/main/demos/plotting_canvas.py/wasm">molab</a><a href="reference/plotting-canvas/">API</a><a href="reference/plotting-canvas.md">MD</a></div>
+</div>
+<div class="gallery-item">
 <div class="gallery-title">ParallelCoordinates</div>
 <a target="_blank" href="https://molab.marimo.io/github/koaning/wigglystuff/blob/main/demos/parallelcoords.py/wasm" class="gallery-img"><img src="assets/gallery/parallelcoords.png" alt="ParallelCoordinates"></a>
 <div class="gallery-links"><a target="_blank" href="https://molab.marimo.io/github/koaning/wigglystuff/blob/main/demos/parallelcoords.py/wasm">molab</a><a href="reference/parallel-coords/">API</a><a href="reference/parallel-coords.md">MD</a></div>
